@@ -137,6 +137,26 @@ img {
     font-family: "Leckerli One", cursive; 
 }
 
-h2{
-    font-family: "Leckerli One", cursive;
+.donate-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 40px;
+}
+
+.error-image{
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.don{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 2% 20%; 
 }
