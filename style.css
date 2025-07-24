@@ -38,7 +38,7 @@ img {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    margin: 2% 25%;
+    margin: 2% 25%; 
 }
 
 .img_accueil {
@@ -58,12 +58,12 @@ img {
     text-align: left;   
     padding: 30px 40px;
     background-color: #95ccff;
-    /* margin-right: ;
-    margin-left: ; */
     margin-top: 5%;
     border-radius: 50px;
     padding-bottom: 50px;
-    /* font-family : font used ; */
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .title{
@@ -77,14 +77,10 @@ img {
     text-align: center;
 }
 
-.accueil-container,
-.qr_code{
+.qr_code {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.qr_code {
     margin-top: 30px;
     padding: 20px 0;
     border-radius: 20px;
@@ -94,3 +90,27 @@ img {
     margin-right: auto;
     text-align: center;
 }
+
+
+.acc-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 2% 25%;
+}
+
+.txt_acc{
+    font-size: 20px;
+    color: #140251;
+    text-align: left;   
+    padding: 30px 40px;
+    background-color: #95ccff;
+    margin-top: 5%;
+    border-radius: 50px;
+    padding-bottom: 50px;
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
