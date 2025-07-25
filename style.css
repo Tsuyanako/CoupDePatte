@@ -205,3 +205,33 @@ a{
     transition: color 0.3s ease;
     font-family: "Leckerli One", cursive;
 }
+
+.img_qr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* espace entre les images */
+    margin-top: 10px;
+}
+
+.prof-image {
+    width: 200px;
+    height: auto;
+}
+
+.img_qaccueil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    height: 100%;
+    background-color: #F2F1EB;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
